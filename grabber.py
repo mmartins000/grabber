@@ -19,7 +19,8 @@ COOKIEFILE = 'cookies.lwp'          # the path and filename that you want to use
 import os.path
 txdata = None
 refererUrl = "http://google.com/?q=grabber"
-txheaders = {'User-agent' : 'Grabber/0.1 (X11; U; Linux i686; en-US; rv:1.7)', 'Referer' : refererUrl}
+#txheaders = {'User-agent' : 'Grabber/0.1 (X11; U; Linux i686; en-US; rv:1.7)', 'Referer' : refererUrl}
+txheaders = {'User-agent' : 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36')', 'Referer' : refererUrl}
 
 import cookielib
 import urllib2
